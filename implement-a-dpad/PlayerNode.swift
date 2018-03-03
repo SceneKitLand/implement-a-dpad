@@ -29,4 +29,26 @@ final class PlayerNode: SCNNode {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
+    var directionAngle: SCNFloat = 0.0 {
+        didSet {
+            if directionAngle != oldValue {
+                // action that rotates the node to an absolute angle in radian.
+                let action = SCNAction.rotateTo(
+                    x: 0.0,
+                    y: CGFloat(directionAngle),
+                    z: 0.0,
+                    duration: 0.1, usesShortestUnitArc: true
+                )
+                runAction(action)
+            }
+        }
+    }
+
+    let speed: Float = 0.3
+
+    func walkInDirection(_ direction: float3) {
+        let currentPosition = float3(position)
+        position = SCNVector3(currentPosition + direction * speed)
+    }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230F5C762049EB1A00162C5E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230F5C752049EB1A00162C5E /* GameView.swift */; };
 		2371059B2049CF1E00B2698F /* LightNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2371059A2049CF1E00B2698F /* LightNode.swift */; };
 		2371059D2049D0FD00B2698F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2371059C2049D0FD00B2698F /* Helper.swift */; };
 		2371059F2049D10C00B2698F /* CameraNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2371059E2049D10C00B2698F /* CameraNode.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230F5C752049EB1A00162C5E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		2371059A2049CF1E00B2698F /* LightNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightNode.swift; sourceTree = "<group>"; };
 		2371059C2049D0FD00B2698F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		2371059E2049D10C00B2698F /* CameraNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraNode.swift; sourceTree = "<group>"; };
@@ -66,18 +68,19 @@
 		23AEF3832049377000C2DF40 /* implement-a-dpad */ = {
 			isa = PBXGroup;
 			children = (
-				23AEF3842049377000C2DF40 /* AppDelegate.swift */,
-				23AEF3862049377000C2DF40 /* art.scnassets */,
-				23AEF3882049377000C2DF40 /* GameViewController.swift */,
-				23AEF38A2049377000C2DF40 /* Main.storyboard */,
-				23AEF38D2049377000C2DF40 /* Assets.xcassets */,
-				23AEF38F2049377000C2DF40 /* LaunchScreen.storyboard */,
 				23AEF3922049377000C2DF40 /* Info.plist */,
+				23AEF3862049377000C2DF40 /* art.scnassets */,
+				23AEF3842049377000C2DF40 /* AppDelegate.swift */,
 				2371059A2049CF1E00B2698F /* LightNode.swift */,
-				2371059C2049D0FD00B2698F /* Helper.swift */,
 				2371059E2049D10C00B2698F /* CameraNode.swift */,
 				237105A02049D13000B2698F /* FloorNode.swift */,
 				237105A22049D24000B2698F /* PlayerNode.swift */,
+				230F5C752049EB1A00162C5E /* GameView.swift */,
+				23AEF3882049377000C2DF40 /* GameViewController.swift */,
+				2371059C2049D0FD00B2698F /* Helper.swift */,
+				23AEF38D2049377000C2DF40 /* Assets.xcassets */,
+				23AEF38F2049377000C2DF40 /* LaunchScreen.storyboard */,
+				23AEF38A2049377000C2DF40 /* Main.storyboard */,
 			);
 			path = "implement-a-dpad";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				23AEF3892049377000C2DF40 /* GameViewController.swift in Sources */,
 				23AEF3852049377000C2DF40 /* AppDelegate.swift in Sources */,
 				237105A12049D13000B2698F /* FloorNode.swift in Sources */,
+				230F5C762049EB1A00162C5E /* GameView.swift in Sources */,
 				2371059D2049D0FD00B2698F /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
